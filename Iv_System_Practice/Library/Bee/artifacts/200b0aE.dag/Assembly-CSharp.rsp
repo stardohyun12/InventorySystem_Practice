@@ -352,12 +352,13 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.26f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/DispalyInventory.cs"
-"Assets/Item.cs"
+"Assets/GroundItem.cs"
 "Assets/Player.cs"
 "Assets/Scriptable Object/Inventory/Scripts/InventoryObject.cs"
 "Assets/Scriptable Object/Item/Scripts/DefaultObject.cs"
 "Assets/Scriptable Object/Item/Scripts/EquipmentObject.cs"
 "Assets/Scriptable Object/Item/Scripts/FoodObject.cs"
+"Assets/Scriptable Object/Item/Scripts/ItemDataObject.cs"
 "Assets/Scriptable Object/Item/Scripts/ItemObject.cs"
 -langversion:9.0
 /deterministic

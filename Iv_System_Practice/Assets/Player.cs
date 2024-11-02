@@ -8,16 +8,27 @@ public class Player : MonoBehaviour
     public InventoryObject inventory;
     
     public void OnTriggerEnter(Collider other) {
-        var item = other.GetComponent<Item>();
+        var item = other.GetComponent<GroundItem>();
         if(item)
         {
-            inventory.AddItem(item.item,1);
+            inventory.AddItem(new(item.item),1);
             Destroy(other.gameObject);
+        }
+    }
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            inventory.Save();
+        }
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            inventory.Load();
         }
     }
 
     private void OnApplicationQuit()
     {
-        inventory.Container.Clear();
+//      inventory.Container.Clear();
     }
 }
