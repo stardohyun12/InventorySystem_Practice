@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339e0af3ae2e84b059176ca6c25a1605, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  perfab: {fileID: 6172091993721006070, guid: 0cde673650ac540bd873ea8d71de24d3, type: 3}
+  Id: 2
+  uiDisplay: {fileID: 21300000, guid: 1225aae5cdb5cfb4196e11d97df783b3, type: 3}
   type: 1
   description: 
   atkBonus: 10
